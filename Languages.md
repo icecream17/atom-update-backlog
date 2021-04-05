@@ -17,7 +17,7 @@ Shouldn't have anything yet
 
 ### Needs update
 
-- (none here yet)
+- https://github.com/atom/atom (The main repository needs to update)
 
 ### Can't update because the tree-sitter dependency needs to update first
 
