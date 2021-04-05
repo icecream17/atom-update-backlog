@@ -13,11 +13,11 @@ Shouldn't have anything yet
 
 ### Has update available
 
-- https://github.com/mr-martian/language-apertium
+- https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130)
 
 ### Needs update
 
-- https://github.com/atom/atom (The main repository needs to update)
+- https://github.com/mr-martian/language-apertium
 
 ### Can't update because the tree-sitter dependency needs to update first
 
