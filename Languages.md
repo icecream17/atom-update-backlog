@@ -1,6 +1,5 @@
 See https://github.com/atom/atom/issues/22129
 
-\[recompiling all the languages] seems harder but also better in the long run.<br>
 Let's try to move a bunch of repos to __Has update available__, and then update them at all once.
 
 Here, a language has _updated_ when its' tree-sitter dependency is on version 19+
