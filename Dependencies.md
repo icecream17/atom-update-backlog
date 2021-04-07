@@ -77,3 +77,7 @@ Repos where
 - https://github.com/atom/grunt-coffelint (note: atom fork of some other package)
 
 ### note: list not finished
+
+### miscallenous dependency prs
+
+- https://github.com/atom/ide-typescript/pull/160
