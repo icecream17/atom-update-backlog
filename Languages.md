@@ -4,13 +4,35 @@ Let's try to move a bunch of repos to __Has update available__, and then update 
 
 Here, a language has _updated_ when its' tree-sitter dependency is on version 19+
 
+Progress:
+
+```js
+Steps
+-1 = needs dependency update
+ 0 = needs update pr
+ 1 = has update pr, but it fails
+ 2 = has update pr; or, already updated
+ 
+Currently
+-1: 1
+ 0: 9
+ 1: 2
+ 2: 1
+
+11 steps remaining, 12 not done
+```
+
 ### Already updated repos
 
-Shouldn't have anything yet
+__Shouldn't have anything__
 
 - https://github.com/atom/language-javascript (already merged, oops. the version didn't update though so atom still works)
 
-### Has update pr available
+### Has update pr
+
+(none)
+
+### Has update pr, but it fails
 
 - https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130)
 - https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296)
