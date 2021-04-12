@@ -13,12 +13,12 @@ Shouldn't have anything yet
 ### Has update pr available
 
 - https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130)
+- https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296)
 
 ### Needs update pr
 
 - https://github.com/mr-martian/language-apertium
 - https://github.com/atom/language-python
-- https://github.com/atom/language-ruby
 - https://github.com/atom/language-html
 - https://github.com/atom/language-c
 - https://github.com/atom/language-css
