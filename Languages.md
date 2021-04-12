@@ -57,6 +57,8 @@ __Shouldn't have anything__
 
 Most of these are hare because they haven't been updated in years
 
+These are ignored in the progress count since the issue doesn't apply
+
 - https://github.com/atom/language-php
 - https://github.com/atom/language-sass
 - https://github.com/atom/language-xml
