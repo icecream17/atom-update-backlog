@@ -19,7 +19,7 @@ Currently
  1: 2
  2: 1
 
-11 steps remaining, 12 not done
+23 steps remaining, 12 not done
 ```
 
 ### Already updated repos
