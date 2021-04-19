@@ -15,11 +15,11 @@ Steps
  
 Currently
 -1: 1
- 0: 9
+ 0: 8
  1: 2
- 2: 1
+ 2: 2
 
-23 steps remaining, 12 not done
+21 steps remaining, 11 not done
 ```
 
 ### Already updated repos
@@ -30,7 +30,7 @@ __Shouldn't have anything__
 
 ### Has update pr
 
-(none)
+- https://github.com/atom/language-json (https://github.com/atom/language-json/pull/84)
 
 ### Has update pr, but it fails
 
@@ -47,7 +47,6 @@ __Shouldn't have anything__
 - https://github.com/atom/language-go
 - https://github.com/atom/language-shellscript
 - https://github.com/atom/language-typescript
-- https://github.com/atom/language-json
 
 ### Can't update because the tree-sitter dependency needs to update first
 
