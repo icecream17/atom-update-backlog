@@ -15,11 +15,11 @@ Steps
  
 Currently
 -1: 1
- 0: 8
- 1: 2
+ 0: 7
+ 1: 3
  2: 2
 
-21 steps remaining, 11 not done
+20 steps remaining, 11 not done
 ```
 
 ### Already updated repos
@@ -36,12 +36,12 @@ __Shouldn't have anything__
 
 - https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130)
 - https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296)
+- https://github.com/atom/language-html (https://github.com/atom/language-html/pull/252)
 
 ### Needs update pr
 
 - https://github.com/mr-martian/language-apertium
 - https://github.com/atom/language-python
-- https://github.com/atom/language-html
 - https://github.com/atom/language-c
 - https://github.com/atom/language-css
 - https://github.com/atom/language-go
