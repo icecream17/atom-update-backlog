@@ -50,11 +50,13 @@ __Shouldn't have anything__
 
 ### Can't update because the tree-sitter dependency needs to update first
 
+In this case though, maybe it would be better to switch dependencies completely.
+
 - https://github.com/atom/language-java
 
 ### Doesn't have any tree-sitter dependency for some reason
 
-Most of these are hare because they haven't been updated in years
+Most of these are here because they haven't been updated in years
 
 These are ignored in the progress count since the issue doesn't apply
 
