@@ -14,6 +14,8 @@ If you're an atom contributor i'll give access if you ask.
         - some of atom's dependencies are made by atom
 - [Languages.md](./Languages.md)
     - tree-sitter just updated in an incompatible way, so every language needs to update now
+- [n-api.md](./n-api.md)
+    - migrating from nan to n-api
 
 ## Other updates
 
