@@ -7,43 +7,38 @@ Here, a language has _updated_ when its' tree-sitter dependency is on version 19
 Progress:
 
 ```js
-Steps
--1 = needs dependency update
- 0 = needs update pr
- 1 = has update pr, but it fails
- 2 = has update pr; or, already updated
- 
-Currently
--1: 1
- 0: 7
- 1: 3
- 2: 2
+Currently the "step" totals are:
+ 3 steps: 1 = needs dependency to update first
+ 2 steps: 6 = needs update
+ 1 steps: 3 = has update ready, but it fails
+ done!!!: 3 = has update ready; or, already updated
 
-20 steps remaining, 11 not done
+18 steps remaining, 10 not done
 ```
 
 ### Already updated repos
 
-__Shouldn't have anything__
+These updated versions will not syntax highlight until https://github.com/atom/atom/pull/22130 is merged, which in turn requires all the repos to be updated
 
-- https://github.com/atom/language-javascript (already merged, oops. the version didn't update though so atom still works)
+- https://github.com/atom/language-javascript
+- https://github.com/atom/language-css (https://github.com/atom/language-css/commit/f889acb7f6f1ee99e0689c62fe9236e201aff695)
 
-### Has update pr
+
+### Has update
 
 - https://github.com/atom/language-json (https://github.com/atom/language-json/pull/84)
 
-### Has update pr, but it fails
+### Has update, but it fails
 
 - https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130)
 - https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296)
 - https://github.com/atom/language-html (https://github.com/atom/language-html/pull/252)
 
-### Needs update pr
+### Needs update
 
 - https://github.com/mr-martian/language-apertium
 - https://github.com/atom/language-python
 - https://github.com/atom/language-c
-- https://github.com/atom/language-css
 - https://github.com/atom/language-go
 - https://github.com/atom/language-shellscript
 - https://github.com/atom/language-typescript
