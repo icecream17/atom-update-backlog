@@ -8,10 +8,10 @@ Progress:
 
 ```js
 Currently the "step" totals are:
- 3 steps: 1 = needs dependency to update first
- 2 steps: 6 = needs update
- 1 steps: 3 = has update ready, but it fails
- done!!!: 3 = has update ready; or, already updated
+  3 steps: 1    // needs dependency to update first
+  2 steps: 6    // needs update
+  1 steps: 3    // has update ready, but it fails
+  done!!!: 3    // has update ready; or, already updated
 
 18 steps remaining, 10 not done
 ```
