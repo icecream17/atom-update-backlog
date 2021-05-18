@@ -20,7 +20,7 @@ Currently the "step" totals are:
 
 These updated versions will not syntax highlight until https://github.com/atom/atom/pull/22130 is merged, which in turn requires all the repos to be updated
 
-- https://github.com/atom/language-javascript
+- https://github.com/atom/language-javascript (https://github.com/atom/language-javascript/pull/692)
 - https://github.com/atom/language-css (https://github.com/atom/language-css/commit/f889acb7f6f1ee99e0689c62fe9236e201aff695)
 
 
