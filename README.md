@@ -8,6 +8,7 @@ If you're an atom contributor i'll give access if you ask.
 
 ## List of backlogs
 
+- [Vulnerabilities.md](./Vulnerabilities.md)
 - [Dependencies.md](./Dependencies.md)
     - atom has a bunch of dependencies, many of which need updating
     - some of atom's dependencies also need updating
