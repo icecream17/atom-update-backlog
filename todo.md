@@ -9,6 +9,9 @@ Many of the issues are at the bottom because I have no idea where to start. Whic
 
 **I'm not going to add any more things to the todo list unless I finish something**
 
+I also mantain <https://docs.google.com/spreadsheets/d/161qC0zbFiwfSV7Yat3-ZHqCGl6RlQ1Hs0hroW6-aXCE/edit#gid=1669283139> \
+Since it's updated daily, it's basically at the top of the list unless I've already done it.
+
 - [ ] Update <https://github.com/atom/atom/blob/master/docs/build-instructions/build-status.md>\
       (Issue https://github.com/atom/atom/issues/22669)
 - [ ] Fix atom's vulnerabilities: https://github.com/icecream17/atom-update-backlog/blob/main/Vulnerabilities.md \
