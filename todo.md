@@ -7,15 +7,16 @@ That means I'll still work on issues later in the list, but less often than issu
 Also this todo list may not be accurate. It's just for me to keep track of everything.\
 Many of the issues are at the bottom because I have no idea where to start. Which is actually an accurate predictor of how much I work on an issue.
 
-**I'm not going to add any more things to the todo list unless I finish something**
+**Don't expect me to work very much on this todo list. And it's growing.**
 
 I also mantain <https://docs.google.com/spreadsheets/d/161qC0zbFiwfSV7Yat3-ZHqCGl6RlQ1Hs0hroW6-aXCE/edit#gid=1669283139> \
-Since it's updated daily, it's basically at the top of the list unless I've already done it.
+I'm too lazy to update it daily, so I'll just update after every commit.
 
 - [ ] Update <https://github.com/atom/atom/blob/master/docs/build-instructions/build-status.md>\
       (Issue https://github.com/atom/atom/issues/22669)
 - [ ] Fix atom's vulnerabilities: https://github.com/icecream17/atom-update-backlog/blob/main/Vulnerabilities.md \
       (Spreadsheet: https://docs.google.com/spreadsheets/d/161qC0zbFiwfSV7Yat3-ZHqCGl6RlQ1Hs0hroW6-aXCE/edit?usp=sharing)
+- [ ] https://github.com/atom/github/issues/14020
 - [ ] https://github.com/atom/github/issues/2684
 - [ ] Fix [atom/github](https://github.com/atom/github)'s flaky/failing tests
 - [ ] https://github.com/atom/atom/issues/22129 (big)
