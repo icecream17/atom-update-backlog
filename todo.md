@@ -16,7 +16,7 @@ I'm too lazy to update it daily, so I'll just update after every commit.
       (Issue https://github.com/atom/atom/issues/22669)
 - [ ] Fix atom's vulnerabilities: https://github.com/icecream17/atom-update-backlog/blob/main/Vulnerabilities.md \
       (Spreadsheet: https://docs.google.com/spreadsheets/d/161qC0zbFiwfSV7Yat3-ZHqCGl6RlQ1Hs0hroW6-aXCE/edit?usp=sharing)
-- [ ] https://github.com/atom/github/issues/14020
+- [ ] https://github.com/atom/atom/issues/14020
 - [ ] https://github.com/atom/github/issues/2684
 - [ ] Fix [atom/github](https://github.com/atom/github)'s flaky/failing tests
 - [ ] https://github.com/atom/atom/issues/22129 (big)
