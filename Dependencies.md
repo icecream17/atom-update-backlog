@@ -2,15 +2,11 @@
 
 ## atom/atom
 
+https://github.com/atom/atom/pull/22901/files document-resiter-element
+
 ### Pull requests
 
-- https://github.com/atom/atom/pull/18321
-- https://github.com/atom/atom/pull/21379
-- https://github.com/atom/atom/pull/21939
 - https://github.com/atom/atom/pull/21963
-- https://github.com/atom/atom/pull/22011
-- https://github.com/atom/atom/pull/22015
-- https://github.com/atom/atom/pull/22058
 - https://github.com/atom/atom/pull/22059
 - https://github.com/atom/atom/pull/22062
 - https://github.com/atom/atom/pull/22064
@@ -18,11 +14,9 @@
 - https://github.com/atom/atom/pull/22066
 - https://github.com/atom/atom/pull/22067
 - https://github.com/atom/atom/pull/22069
-- https://github.com/atom/atom/pull/22076
-- https://github.com/atom/atom/pull/22096
 - https://github.com/atom/atom/pull/22105
-- https://github.com/atom/atom/pull/22125
 - https://github.com/atom/atom/pull/22130
+- https://github.com/atom/atom/pull/22687
 
 ### Issues
 
