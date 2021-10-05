@@ -14,6 +14,7 @@ I'm too lazy to update it daily, so I'll just update after every commit.
 
 - [x] Update <https://github.com/atom/atom/blob/master/docs/build-instructions/build-status.md>\
       (Issue https://github.com/atom/atom/issues/22669)
+- [ ] https://github.com/atom/atom/issues/22462
 - [ ] https://github.com/atom/atom/issues/2654
 - [ ] https://github.com/atom/github/issues/2684
 - [ ] https://github.com/atom/atom/issues/14020
