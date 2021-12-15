@@ -9,11 +9,12 @@ Progress:
 ```js
 Currently the "step" totals are:
   3 steps: 1    // needs dependency to update first
-  2 steps: 6    // needs update
+  2 steps: 5    // needs update
   1 steps: 2    // has update ready, but it fails
-  done!!!: 4    // has update ready; or, already updated
+  done!!!: 5    // has update ready; or, already updated
 
-17 steps remaining, 9 not done
+15 steps remaining, 8 not done
+1 repo (mr-martian/language-apertium) is more optional. It's currently in needs update but it doesn't block any v19 issue resolving.
 ```
 
 ### Already updated repos
@@ -22,10 +23,10 @@ These updated versions will not syntax highlight until https://github.com/atom/a
 
 - https://github.com/atom/language-javascript (https://github.com/atom/language-javascript/pull/692)
 - https://github.com/atom/language-css (https://github.com/atom/language-css/commit/f889acb7f6f1ee99e0689c62fe9236e201aff695)
-- https://github.com/atom/language-go (https://github.com/atom/language-go/commit/8095b52af738a43e028ff559d3a75d5ae40a6ed9)
+- https://github.com/atom/language-go (https://github.com/atom/language-go/pull/186)
+- https://github.com/atom/language-c (https://github.com/atom/language-c/pull/369)
 
-
-### Has update, but not merged or not published in a new version or release
+#### Has update, but not merged or not published in a new version or release
 
 - https://github.com/atom/language-json (https://github.com/atom/language-json/pull/84)
 
@@ -34,17 +35,16 @@ These updated versions will not syntax highlight until https://github.com/atom/a
 - https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296 and https://github.com/atom/language-ruby/pull/299)
 - https://github.com/atom/language-html (https://github.com/atom/language-html/pull/252 **old**)
 
-### Had update but fail
-
-- https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130)
-
 ### Needs update
 
 - https://github.com/mr-martian/language-apertium
 - https://github.com/atom/language-python
-- https://github.com/atom/language-c
 - https://github.com/atom/language-shellscript
 - https://github.com/atom/language-typescript
+
+#### Had update but fail
+
+- https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130 closed https://github.com/atom/atom/pull/23068 closed)
 
 ### Can't update because the tree-sitter dependency needs to update first
 
