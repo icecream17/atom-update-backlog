@@ -9,11 +9,11 @@ Progress:
 ```js
 Currently the "step" totals are:
   3 steps: 1    // needs dependency to update first
-  2 steps: 6    // needs update
+  2 steps: 5    // needs update
   1 steps: 3    // has update ready, but it fails
-  done!!!: 3    // has update ready; or, already updated
+  done!!!: 4    // has update ready; or, already updated
 
-18 steps remaining, 10 not done
+16 steps remaining, 9 not done
 ```
 
 ### Already updated repos
@@ -22,6 +22,7 @@ These updated versions will not syntax highlight until https://github.com/atom/a
 
 - https://github.com/atom/language-javascript (https://github.com/atom/language-javascript/pull/692)
 - https://github.com/atom/language-css (https://github.com/atom/language-css/commit/f889acb7f6f1ee99e0689c62fe9236e201aff695)
+- https://github.com/atom/language-go (https://github.com/atom/language-go/commit/8095b52af738a43e028ff559d3a75d5ae40a6ed9)
 
 
 ### Has update
@@ -39,7 +40,6 @@ These updated versions will not syntax highlight until https://github.com/atom/a
 - https://github.com/mr-martian/language-apertium
 - https://github.com/atom/language-python
 - https://github.com/atom/language-c
-- https://github.com/atom/language-go
 - https://github.com/atom/language-shellscript
 - https://github.com/atom/language-typescript
 
