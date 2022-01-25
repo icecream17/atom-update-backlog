@@ -1,0 +1,22 @@
+
+"Unsaved buffers aren't restored if there is no project folder added to the window"
+
+Here's my progress for the issue.
+
+This issue was noticed before:
+ https://github.com/atom/atom/pull/9968#issuecomment-163959573
+ "Untitled buffers are saved based on the open folders" (instead of at any time)
+
+It seems like the cause is https://github.com/atom/atom/pull/9968/files
+
+The test simulates "When the buffer has no path" by calling `atom.project.bufferForPathSync(null)`
+ https://github.com/atom/atom/pull/9968/files#diff-1f71ec51034f49990fa76354542423704eb1a1f9a37a96fbf28dbf7fa2c155f8R43
+
+An untitled editor is opened by doing `atom.workspace.open(null)`
+ https://github.com/atom/atom/pull/9968/files#diff-fea9332ba243b84077b45eb9cbb067c3b7f290b30295b06136f4612edb8b5bb8R47
+
+The path of an untitled editor is undefined.
+ https://github.com/atom/atom/pull/9968/files#diff-fea9332ba243b84077b45eb9cbb067c3b7f290b30295b06136f4612edb8b5bb8R79
+
+Here's a solution!
+ https://github.com/mpeterson2/save-session/blob/master/lib/files.coffee
