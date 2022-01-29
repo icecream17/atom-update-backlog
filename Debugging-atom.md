@@ -59,3 +59,7 @@ There are commands for that: `Application: Open Dev` and `Application: Open Safe
 In windows, if you don't know about <kbd>win</kbd>+<kbd>ctrl</kbd>+<kbd>s</kbd>, you're missing out.
 
 Screenshots are so helpful and easy because you can just paste them directly into many places on github.
+
+## Common errors
+
+There are 410 issues with the text `keyboard-layout-manager.node` (https://github.com/atom/atom/search?q=keyboard-layout-manager.node&type=issues)
