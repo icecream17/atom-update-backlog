@@ -33,7 +33,7 @@ These updated versions will not syntax highlight until https://github.com/atom/a
 ### Has update, but it fails
 
 - https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296 and https://github.com/atom/language-ruby/pull/299)
-- https://github.com/atom/language-html (https://github.com/atom/language-html/pull/252 **old**)
+- https://github.com/atom/language-html (https://github.com/atom/language-html/pull/256 and https://github.com/atom/language-ruby/pull/260)
 
 ### Needs update
 
