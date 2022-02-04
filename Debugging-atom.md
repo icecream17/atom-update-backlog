@@ -36,9 +36,11 @@ Then click whatever you want to inspect.
 
 Example: https://github.com/atom/atom/discussions/23150#discussioncomment-1908618
 
-## Atom cli - Adding atom to path
+## Adding atom to path / adding atom shell commands
 
-By default the `atom` folder is at `C:\Users\<name>\AppData\Local\atom` (or atom-beta or atom-nightly).
+Try https://stackoverflow.com/q/22390709, but if that doesn't work:
+
+By default the `atom` folder is at `C:\Users\<name>\AppData\Local\atom` (or atom-beta or atom-nightly) (for windows, might need to search for it, also AppData is a hidden folder by default).
 
 And the binaries are at `<atom folder>\bin`.
 
