@@ -36,6 +36,14 @@ Then click whatever you want to inspect.
 
 Example: https://github.com/atom/atom/discussions/23150#discussioncomment-1908618
 
+## Atom cli - Adding atom to path
+
+By default the `atom` folder is at `C:\Users\<name>\AppData\Local\atom` (or atom-beta or atom-nightly).
+
+And the binaries are at `<atom folder>\bin`.
+
+Find the instructions on google for how to "add to path" if you don't know how. Then add `<atom folder>\bin` to path.
+
 ## Opening atom in dev/safe mode
 
 There are commands for that: `Application: Open Dev` and `Application: Open Safe`
@@ -43,13 +51,23 @@ There are commands for that: `Application: Open Dev` and `Application: Open Safe
 <details>
   <summary>If you've added Atom to path</summary>
 
-  General steps (google helps)
+  The command is `atom --safe` or `atom --dev` or even `atom --dev --safe`
 
-  1. Find where atom binaries are
-     (eg: `C:\Users\[user]\AppData\Local\atom\bin` or `C:\Users\[user]\AppData\Local\atom-beta\bin`)
-  2. Add to path
+  Note: If you're using atom-beta or atom-nightly, the command is `atom-beta <flags>` or `atom-nightly <flags>.
+</details>
 
-  ...then you can also run `atom --safe` or `atom --dev` or even `atom --dev --safe`
+## Package installing
+
+Install packages at https://atom.io/packages or in atom settings > install.
+
+If the package has not been published, either publish it or `apm link` (see details)
+
+<details>
+  <summary>If you've added Atom to path</summary>
+
+  The command to install a package (or git_remote or github_username/github_repo, see `apm help install`) is `apm install <package_name>`.
+
+  The command to install a locally downloaded/created package is `apm link` or `apm-beta link`
 
   Note: If you're using atom-beta, the commands are `atom-beta --safe`, `atom-beta --dev`, etc.
 </details>
