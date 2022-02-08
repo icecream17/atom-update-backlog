@@ -24,9 +24,13 @@ You _could_ also do this with `View > Toggle Command Pallete` if that doesn't wo
 
 Also: https://flight-manual.atom.io/getting-started/sections/atom-basics/#command-palette
 
-## Inspect element
+## Open devtools
 
-Randomly described in places such as https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks
+How to open devtools is randomly described in places such as https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks
+
+In windows it's ctrl+shift+i
+
+### Inspect element
 
 Once you've opened devtools, either by keyboard or with `Window: Toggle Dev Tools` (see link), you can inspect element by clicking here:
 
@@ -35,6 +39,10 @@ Once you've opened devtools, either by keyboard or with `Window: Toggle Dev Tool
 Then click whatever you want to inspect.
 
 Example: https://github.com/atom/atom/discussions/23150#discussioncomment-1908618
+
+### Console
+
+In the image above, you can see I am on the console tab. Select the console tab to see any error/warn/info/log/debug messages.
 
 ## Adding atom to path / adding atom shell commands
 
