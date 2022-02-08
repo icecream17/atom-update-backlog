@@ -63,7 +63,7 @@ There are commands for that: `Application: Open Dev` and `Application: Open Safe
 
   The command is `atom --safe` or `atom --dev` or even `atom --dev --safe`
 
-  Note: If you're using atom-beta or atom-nightly, the command is `atom-beta <flags>` or `atom-nightly <flags>.
+  Note: If you're using atom-beta or atom-nightly, the command is `atom-beta <flags>` or `atom-nightly <flags>`.
 </details>
 
 ## Package installing
@@ -79,7 +79,7 @@ If the package has not been published, either publish it or `apm link` (see deta
 
   The command to install a locally downloaded/created package is `apm link` or `apm-beta link`
 
-  Note: If you're using atom-beta, the commands are `atom-beta --safe`, `atom-beta --dev`, etc.
+  Note: If you're using atom-beta or atom-nightly, the commands are `atom-<beta or nightly> <flags>`
 </details>
 
 ## Screenshots
