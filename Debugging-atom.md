@@ -52,7 +52,7 @@ By default the `atom` folder is at `C:\Users\<name>\AppData\Local\atom` (or atom
 
 And the binaries are at `<atom folder>\bin`.
 
-Find the instructions on google for how to "add to path" if you don't know how. Then add `<atom folder>\bin` to path.
+Add `<atom folder>\bin` to path (the process for this depends on your operating system, searching "add to path <os>" gets many helpful links)
 
 ## Opening atom in dev/safe mode
 
