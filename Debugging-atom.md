@@ -48,7 +48,7 @@ In the image above, you can see I am on the console tab. Select the console tab 
 
 Try https://stackoverflow.com/q/22390709 (Atom > Install Shell Commands), but if that doesn't work:
 
-By default the `atom` folder is at `C:\Users\<name>\AppData\Local\atom` (or atom-beta or atom-nightly) (for windows, might need to search for it, also AppData is a hidden folder by default).
+By default the `atom` folder is at `C:\Users\<name>\AppData\Local\atom` (or atom-beta or atom-nightly) (for windows, might need to search for other operating systems, also AppData is a hidden folder by default).
 
 And the binaries are at `<atom folder>\bin`.
 
