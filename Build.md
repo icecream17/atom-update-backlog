@@ -3,10 +3,11 @@
 ...on gitpod.
 
 1. fork atom
-2. gitpod.io/#<your fork of atom>
-3. open the terminal if it's not open already using <kbd>ctrl</kbd>+<kbd>`</kbd>
-4. cancel the default gitpod installation in the terminal by clicking and <kbd>ctrl</kbd>+<kbd>c</kbd>
-5. run the following commands (see https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-linux):
+2. insert `gitpod.io/#` before `\<link to your fork of atom>` and go
+3. log in not described
+4. open the terminal if it's not open already using <kbd>ctrl</kbd>+<kbd>`</kbd>
+5. cancel the default gitpod installation in the terminal by clicking and <kbd>ctrl</kbd>+<kbd>c</kbd>
+6. run the following commands (see https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-linux):
    ```shell
    clear
    nvm install 14
