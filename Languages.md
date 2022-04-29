@@ -1,3 +1,5 @@
+> **Notice**: `tree-sitter` is now on v20 instead of v19, so this is outdated
+
 See https://github.com/atom/atom/issues/22129
 
 Let's try to move a bunch of repos to __Has update available__, and then update them at all once.
@@ -30,7 +32,9 @@ These updated versions will not syntax highlight until https://github.com/atom/a
 
 - https://github.com/atom/language-json (https://github.com/atom/language-json/pull/84)
 
-### Has update, but it fails
+### Needs update
+
+These previously had prs to update but they didn't pass the tests.
 
 - https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296 and https://github.com/atom/language-ruby/pull/299)
 - https://github.com/atom/language-html (https://github.com/atom/language-html/pull/256 and https://github.com/atom/language-ruby/pull/260)
@@ -54,7 +58,7 @@ In this case though, maybe it would be better to switch dependencies completely.
 
 ### Doesn't have any tree-sitter dependency for some reason
 
-Most of these are here because they haven't been updated in years
+Most of these haven't been updated in years
 
 These are ignored in the progress count since the issue doesn't apply
 
