@@ -3,7 +3,7 @@
 ...on gitpod.
 
 1. fork atom
-2. insert `gitpod.io/#` before `\<link to your fork of atom>` and go
+2. insert `gitpod.io/#` before `<link to your fork of atom>` and go
 3. log in not described
 4. open the terminal if it's not open already using <kbd>ctrl</kbd>+<kbd>`</kbd>
 5. cancel the default gitpod installation in the terminal by clicking and <kbd>ctrl</kbd>+<kbd>c</kbd>
