@@ -2,6 +2,9 @@
 >
 > [https://github.com/atom/atom/pull/23283#issuecomment-1112509152] shows an easy method to update a language repo,
 > here are the instructions along with the gitpod commands I would use:
+>
+> 0. If using gitpod `nvm install 14` or `nvm install 16` depending on the `lockfileVersion` of `package-lock.json`
+>
 > 1. Update tree-sitter to v0.20.0
 >    ```shell
 >    npm install tree-sitter@\*
