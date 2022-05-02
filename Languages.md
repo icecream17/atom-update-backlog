@@ -1,62 +1,83 @@
-> **Notice**: `tree-sitter` is now on v20 instead of v19, so this is outdated
+> **Notice**: `tree-sitter` is now on v20 instead of v19
+>
+> [https://github.com/atom/atom/pull/23283#issuecomment-1112509152] shows an easy method to update a language repo,
+> here are the instructions along with the gitpod commands I would use:
+> 1. Update tree-sitter to v0.20.0
+>    ```shell
+>    npm install tree-sitter@\*
+>    ```
+> 2. Manually rebuild each tree-sitter dependency using
+>    ```shell
+>    cd node_modules/tree-sitter-<language>
+>    tree-sitter generate
+>    npm rebuild
+>    electron-rebuild --version 11.5.0
+>    ```
+>
 
-See https://github.com/atom/atom/issues/22129
+Atom update pr: https://github.com/atom/atom/pull/23283<br>
+Issue: https://github.com/atom/atom/issues/22129
 
-Let's try to move a bunch of repos to __Has update available__, and then update them at all once.
+Let's try to move a bunch of repos to at least __Has update available__, and then update them at all once.
 
-Here, a language has _updated_ when its' tree-sitter dependency is on version 19+
+Here, a language has _updated_ when its' tree-sitter dependency is on version 20+
 
 Progress:
 
 ```js
 Currently the "step" totals are:
-  3 steps: 1    // needs dependency to update first
-  2 steps: 5    // needs update
-  1 steps: 2    // has update ready, but it fails
-  done!!!: 5    // has update ready; or, already updated
+  todo: 12 // no pull request to go to v20
+  pull: 0  // has pull request
+  merg: 0  // pull request merged
+  done: 0  // pull request merged and new release happens
 
-15 steps remaining, 8 not done
-1 repo (mr-martian/language-apertium) is more optional. It's currently in needs update but it doesn't block any v19 issue resolving.
+36 steps remaining
+Languages not owned by atom, like mr-martian/language-apertium, are more optional.
 ```
 
-### Already updated repos
+### Done (New version released)
 
-These updated versions will not syntax highlight until https://github.com/atom/atom/pull/22130 is merged, which in turn requires all the repos to be updated
+Note that incompatible tree-sitter packages (e.g. v20 packages when atom is on v17) will not syntax highlight.
 
-- https://github.com/atom/language-javascript (https://github.com/atom/language-javascript/pull/692)
-- https://github.com/atom/language-css (https://github.com/atom/language-css/commit/f889acb7f6f1ee99e0689c62fe9236e201aff695)
-- https://github.com/atom/language-go (https://github.com/atom/language-go/pull/186)
-- https://github.com/atom/language-c (https://github.com/atom/language-c/pull/369)
+### Merged
 
-#### Has update, but not merged or not published in a new version or release
+### Pr (Has update available)
+
+### Todo
+
+Note that v19 progress is not necessary since tree-sitter can be updated directly to v20.
+
+#### On v19
+
+- https://github.com/atom/language-javascript
+- https://github.com/atom/language-css
+- https://github.com/atom/language-go
+- https://github.com/atom/language-c
+
+#### Has v19 update (non-regenerate command)
 
 - https://github.com/atom/language-json (https://github.com/atom/language-json/pull/84)
 
-### Needs update
+#### v17
 
-These previously had prs to update but they didn't pass the tests.
+Note: (language-rust-bundled)[https://github.com/atom/atom/tree/master/packages/language-rust-bundled] will be updated with Atom.
 
-- https://github.com/atom/language-ruby (https://github.com/atom/language-ruby/pull/296 and https://github.com/atom/language-ruby/pull/299)
-- https://github.com/atom/language-html (https://github.com/atom/language-html/pull/256 and https://github.com/atom/language-ruby/pull/260)
-
-### Needs update
-
-- https://github.com/mr-martian/language-apertium
+- https://github.com/atom/language-ruby
+- https://github.com/atom/language-html
 - https://github.com/atom/language-python
 - https://github.com/atom/language-shellscript
 - https://github.com/atom/language-typescript
+- https://github.com/atom/atom/tree/master/packages/language-rust-bundled
 
-#### Had update but fail
-
-- https://github.com/atom/atom (The main repository as well, even though not a language - https://github.com/atom/atom/pull/22130 closed https://github.com/atom/atom/pull/23068 closed)
-
-### Can't update because the tree-sitter dependency needs to update first
+### Can't* update because the tree-sitter dependency needs to update first
 
 In this case though, maybe it would be better to switch dependencies completely.
 
+Edit: See comment above.
+
 - https://github.com/atom/language-java
 
-### Doesn't have any tree-sitter dependency for some reason
+### Doesn't have any tree-sitter dependency
 
 Most of these haven't been updated in years
 
@@ -86,10 +107,13 @@ These are ignored in the progress count since the issue doesn't apply
 - https://github.com/atom/language-property-list
 - https://github.com/atom/language-source
 
-### Note
+### Not owned by atom
 
-Repos that are not owned by atom are probably not listed.
+Just here for reference; these repos are optional.
 
-If you know about one of these repos please open an issue or pr.
+- https://github.com/mr-martian/language-apertium
 
-`atom-ide-<language>` repos are also not here.
+Most repos that are not owned by atom are not listed.
+If you know about one of these repos feel free to make a comment, issue, or pr.
+
+> Note: `atom-ide-<language>` repos are also not here
