@@ -20,8 +20,6 @@ Issue: https://github.com/atom/atom/issues/22129
 
 Let's try to move a bunch of repos to at least __Has update available__, and then update them at all once.
 
-Here, a language has _updated_ when its' tree-sitter dependency is on version 20+
-
 Progress:
 
 ```js
@@ -45,7 +43,7 @@ Note that incompatible tree-sitter packages (e.g. v20 packages when atom is on v
 
 ### Todo
 
-Note that v19 progress is not necessary since tree-sitter can be updated directly to v20.
+Note that v19 progress is not necessary since tree-sitter packages can be updated directly to v20.
 
 #### On v19
 
