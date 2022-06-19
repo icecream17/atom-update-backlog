@@ -11,6 +11,7 @@
    ```shell
    clear
    nvm install 14
+   sudo apt-get update
    sudo apt-get install build-essential git libsecret-1-dev fakeroot rpm libgtk-3-dev libx11-xcb-dev libxcb-dri3-dev libxkbfile-dev libxss-dev libxtst-dev
    ./script/build
    ```
