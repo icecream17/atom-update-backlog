@@ -12,7 +12,9 @@ Many of the issues are at the bottom because I have no idea where to start. Whic
 - [ ] Right now the biggest priority is to get Atom to successfully build on the `windows-2019` CI Azure Pipelines image. The deadline is June 30: https://github.com/actions/virtual-environments/issues/5403
 - [ ] Some user-facing improvements are of course done by upgrading Electron
 - [ ] Developer wise, it would be nice to update Node/Npm/Python/Babel
-- [ ] Fixing tests
+- [ ] Depend less on Native npm modules
+
+I would add "Fixing tests" and "Improve performance" but the above seem to solve that already
 
 ## Old
 
