@@ -7,6 +7,15 @@ That means I'll still work on issues later in the list, but less often than issu
 Also this todo list may not be accurate. It's just for me to keep track of everything.\
 Many of the issues are at the bottom because I have no idea where to start. Which is actually an accurate predictor of how much I work on an issue.
 
+## New
+
+- [ ] Right now the biggest priority is to get Atom to successfully build on the `windows-2019` CI Azure Pipelines image. The deadline is June 30: https://github.com/actions/virtual-environments/issues/5403
+- [ ] Some user-facing improvements are of course done by upgrading Electron
+- [ ] Developer wise, it would be nice to update Node/Npm/Python/Babel
+- [ ] Fixing tests
+
+## Old
+
 **Don't expect me to work very much on this todo list. And it's growing.**
 
 I also mantain <https://docs.google.com/spreadsheets/d/161qC0zbFiwfSV7Yat3-ZHqCGl6RlQ1Hs0hroW6-aXCE/edit?usp=sharing> \
