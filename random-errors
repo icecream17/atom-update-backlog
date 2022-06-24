@@ -1,0 +1,101 @@
+# This file lists random obscure errors separated by seven dashes "-------"
+-------
+Downloading ripgrep failed: Error: Command failed: powershell "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -URI https://api.github.com/repos/microsoft/ripgrep-prebuilt/releases/assets/47921387 -UseBasicParsing -OutFile C:\Users\ContainerAdministrator\AppData\Local\Temp\vscode-ripgrep-cache-1.13.2\ripgrep-v13.0.0-4-x86_64-pc-windows-msvc.zip -Headers @{\"accept\"=\"application/octet-stream\"} -UserAgent vscode-ripgrep"
+-------
+Error: Cannot require module "../node_modules/nsfw/build/Release/nsfw.node".
+To use Node's require you need to call `snapshotResult.setGlobals` first!
+    at require (/home/vsts/work/1/s/out/startup.js:1:755826)
+    at customRequire (/home/vsts/work/1/s/out/startup.js:1:756277)
+    at get_NSFW (/home/vsts/work/1/s/out/startup.js:14:1234978)
+    at Object.../node_modules/nsfw/js/src/index.js (/home/vsts/work/1/s/out/startup.js:14:1236341)
+    at customRequire (/home/vsts/work/1/s/out/startup.js:1:756167)
+    at Object.../src/path-watcher.js (/home/vsts/work/1/s/out/startup.js:14:21552)
+    at customRequire (/home/vsts/work/1/s/out/startup.js:1:756167)
+    at Object.../src/project.js (/home/vsts/work/1/s/out/startup.js:11:409605)
+    at customRequire (/home/vsts/work/1/s/out/startup.js:1:756167)
+    at Object.../src/atom-environment.js (/home/vsts/work/1/s/out/startup.js:1:761876)
+
+  at checkExecSyncError (child_process.js:630:11)
+  at Object.execFileSync (child_process.js:648:15)
+  at /home/vsts/work/1/s/script/lib/generate-startup-snapshot.js:296:18
+  at build (/home/vsts/work/1/s/script/build:177:7)
+-------
+An error occurred while uploading the release:
+
+ Error: Unable to extract accountName with provided information.
+    at getAccountNameFromUrl (/home/vsts/work/1/s/script/vsts/node_modules/@azure/storage-blob/dist/index.js:13775:15)
+    at extractConnectionStringParts (/home/vsts/work/1/s/script/vsts/node_modules/@azure/storage-blob/dist/index.js:13491:29)
+    at Function.fromConnectionString (/home/vsts/work/1/s/script/vsts/node_modules/@azure/storage-blob/dist/index.js:22871:32)
+    at upload (/home/vsts/work/1/s/script/vsts/lib/upload-to-azure-blob.js:7:47)
+    at uploadArtifacts (/home/vsts/work/1/s/script/vsts/upload-artifacts.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+-------
+A JavaScript error occurred in the main process
+Uncaught Exception:
+Error: Cannot find module '../build/Release/nslog.node'
+Require stack:
+- /usr/share/atom-dev/resources/app.asar/node_modules/nslog/lib/nslog.js
+- /usr/share/atom-dev/resources/app.asar/src/main-process/start.js
+- /usr/share/atom-dev/resources/app.asar/src/main-process/main.js
+-
+    at Module._resolveFilename (internal/modules/cjs/loader.js:972:15)
+-------
+Building the Electron app…
+not found: electron-builder
+/home/runner/work/_actions/samuelmeuli/action-electron-builder/v1/index.js:144
+                throw err;
+                ^
+Error: Command failed: npx --no-install electron-builder --linux  
+    at checkExecSyncError (child_process.js:635:11)
+    at execSync (child_process.js:671:15)
+    at run (/home/runner/work/_actions/samuelmeuli/action-electron-builder/v1/index.js:21:27)
+    at runAction (/home/runner/work/_actions/samuelmeuli/action-electron-builder/v1/index.js:132:4)
+    at Object.<anonymous> (/home/runner/work/_actions/samuelmeuli/action-electron-builder/v1/index.js:150:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+  status: 127,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 11343,
+  stdout: null,
+  stderr: null
+}
+-------
+npm ERR! Cannot convert undefined or null to object
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/runner/.npm/_logs/2022-06-24T00_00_44_658Z-debug.log
+child_process.js:674
+    throw err;
+    ^
+Error: Command failed: npm install
+    at checkExecSyncError (child_process.js:635:11)
+    at execSync (child_process.js:671:15)
+    at run (/home/runner/work/_actions/samuelmeuli/action-electron-builder/v1/index.js:21:27)
+    at runAction (/home/runner/work/_actions/samuelmeuli/action-electron-builder/v1/index.js:109:2)
+    at Object.<anonymous> (/home/runner/work/_actions/samuelmeuli/action-electron-builder/v1/index.js:150:1)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+-------
+Dumping symbols in /opt/.cache/yay/atom/src/atom-1.61.0-beta0/out/symbols
+/opt/.cache/yay/atom/src/atom-1.61.0-beta0/script/lib/dump-symbols.js:33
+        throw new Error(error);
+        ^
+
+[Error: Error
+  at /opt/.cache/yay/atom/src/atom-1.61.0-beta0/script/lib/dump-symbols.js:33:15
+  at ChildProcess.<anonymous> (/opt/.cache/yay/atom/src/atom-1.61.0-beta0/script/node_modules/minidump/lib/minidump.js:27:7)
+  at ChildProcess.emit (events.js:315:20)
+  at maybeClose (internal/child_process.js:1021:16)
+  at Socket.<anonymous> (internal/child_process.js:443:11)
+  at Socket.emit (events.js:315:20)
+  at Pipe.<anonymous> (net.js:674:12)
+]
+==> ERROR: A failure occurred in build().
+    Aborting...
+ -> error making: atom
