@@ -1,4 +1,4 @@
-# This file lists random obscure errors separated by seven dashes "-------"
+# This file lists random errors separated by seven dashes "-------"
 -------
 Downloading ripgrep failed: Error: Command failed: powershell "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -URI https://api.github.com/repos/microsoft/ripgrep-prebuilt/releases/assets/47921387 -UseBasicParsing -OutFile C:\Users\ContainerAdministrator\AppData\Local\Temp\vscode-ripgrep-cache-1.13.2\ripgrep-v13.0.0-4-x86_64-pc-windows-msvc.zip -Headers @{\"accept\"=\"application/octet-stream\"} -UserAgent vscode-ripgrep"
 -------
@@ -99,3 +99,17 @@ Dumping symbols in /opt/.cache/yay/atom/src/atom-1.61.0-beta0/out/symbols
 ==> ERROR: A failure occurred in build().
     Aborting...
  -> error making: atom
+-------
+gitpod /workspace/atom (merge-languages) $ ./script/test
+##[command] Executing core main process tests
+The futex facility returned an unexpected error code.
+##[error] Tests for core-main-process failed.
+
+
+ 
+ ##[error] *** Reporting the errors that happened in all of the tests: *** 
+ 
+
+##[error] The 'core-main-process' test step finished with a non-zero exit code 
+ You can run the test again using: 
+         /workspace/atom/out/atom-dev-1.63.0-dev-7eaebe0ee-amd64/atom --resource-path /workspace/atom --test --main-process /workspace/atom/spec/main-process
