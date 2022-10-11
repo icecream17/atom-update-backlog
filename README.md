@@ -1,10 +1,12 @@
 # atom-update-backlog
 
+**Edit: This repo is also about atom-community and pulsar**
+
 A bunch of updates that atom needs
 
 If you want to add stuff please add an issue.
 
-If you're an atom contributor i'll give access if you ask.
+If you're an atom contributor I'll give access if you ask.
 
 ## List of backlogs
 
