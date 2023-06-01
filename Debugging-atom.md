@@ -68,7 +68,7 @@ There are commands for that: `Application: Open Dev` and `Application: Open Safe
 
 ## Package installing
 
-Install packages at https://atom.io/packages or in atom settings > install.
+Install packages at https://atom.io/packages (now https://web.pulsar-edit.dev/packages) or in settings > install
 
 If the package has not been published, either publish it or `apm link` (see details)
 
